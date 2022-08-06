@@ -3,14 +3,17 @@ import FiatPrototype from "./vehicles/FiatPrototype";
 const fiat = new FiatPrototype("uno","branco","passeio","1999");
 const fiat1 = fiat.clonar();
 const fiat2 = fiat.clonarDeep();
+
 fiat1._ano = "2018"
 fiat1._color= "branco";
 fiat1._categoria ="passeio";
 fiat1._model = "Strada";
+
 fiat2._ano = "2019"
 fiat2._color= "preto";
 fiat2._categoria ="passeio";
 fiat2._model = "Toro";
+
 console.log("Fiat original");
 console.log("modelo",fiat._model);
 console.log("ano",fiat._ano);
