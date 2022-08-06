@@ -43,4 +43,5 @@ export default abstract class VehiclePrototype {
     }
 
     clonar() {}
+    clonarDeep(){}
 }
